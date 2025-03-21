@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vedant K| Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio of Vedant Kanekar" />
+    <meta name="author" content="Vedant Kanekar" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  </head>
+
+  <body>
+    <div id="root">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <div class="logo">VD</div>
+            <ul class="nav-links">
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="hero-title fade-in">Hello, I'm <span>Vedant Kanekar</span></h1>
+              <h2 class="hero-subtitle fade-in">Software Developer & Designer</h2>
+              <p class="hero-description fade-in">
+                Creating elegant solutions with a focus on clean code and beautiful interfaces.
+              </p>
+              <div class="hero-buttons fade-in">
+                <a href="#projects" class="button primary">View My Work</a>
+                <a href="#contact" class="button secondary">Get In Touch</a>
+              </div>
+            </div>
+          </div>
+          <div class="scroll-indicator">
+            <div class="mouse">
+              <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="about section" id="about">
+          <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+              <div class="about-image">
+                <div class="image-container">
+                  <img src="images/1.jpg" alt="Vedant Kanekar" class="profile-image">
+                </div>
+              </div>
+              <div class="about-text">
+                <p>Hi! I'm Vedant Kanekar, a first-year engineering student at Fr. Conceicao Rodrigues College of Engineering, currently pursuing Computer Engineering. I have a keen interest in data handling and developing statistical analytics, with a strong passion for business management and statistics.
+
+                    My journey in the tech world has led me to explore various aspects of data analysis and its application in solving real-world problems. To further enhance my skills, I had the opportunity to intern at a startup company, where I gained hands-on experience and expanded my knowledge in the field.
+                    
+                    I consider myself a hardworking and dedicated individual, always striving to improve and take on new challenges. Outside of academics and tech, I'm an avid sports enthusiast, particularly passionate about football. I also love focusing on my fitness and believe in maintaining a healthy balance between work and personal life.</p>
+                <div class="about-stats">
+                  <div class="stat">
+                    <h3>5+</h3>
+                    <p>Years Experience</p>
+                  </div>
+                  <div class="stat">
+                    <h3>50+</h3>
+                    <p>Projects Completed</p>
+                  </div>
+                  <div class="stat">
+                    <h3>20+</h3>
+                    <p>Happy Clients</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="skills section" id="skills">
+          <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+              <div class="skill-category">
+                <h3 class="category-title">Frontend</h3>
+                <div class="skills-grid">
+                  <div class="skill-item" data-skill="HTML">
+                    <div class="skill-icon">HTML</div>
+                    <div class="skill-bar">
+                      <div class="skill-level" style="width: 95%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-skill="CSS">
+                    <div class="skill-icon">CSS</div>
+                    <div class="skill-bar">
+                      <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-skill="JavaScript">
+                    <div class="skill-icon">JS</div>
+                    <div class="skill-bar">
+                      <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-skill="React">
+                    <div class="skill-icon">React</div>
+                    <div class="skill-bar">
+                      <div class="skill-level" style="width: 80%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="skill-category">
+                <h3 class="category-title">Backend</h3>
+                <div class="skills-grid">
+                  <div class="skill-item" data-skill="Node.js">
+                    <div class="skill-icon">Node</div>
+                    <div class="skill-bar">
+                      <div class="skill-level" style="width: 75%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-skill="Express">
+                    <div class="skill-icon">Express</div>
+                    <div class="skill-bar">
+                      <div class="skill-level" style="width: 70%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-skill="MongoDB">
+                    <div class="skill-icon">MongoDB</div>
+                    <div class="skill-bar">
+                      <div class="skill-level" style="width: 65%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects section" id="projects">
+          <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="images/2.jpeg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                  <h3 class="project-title">Suistanable Shopping selector </h3>
+                  <p class="project-description">A modern e-commerce platform built with HTML, CSS, and JavaScript.</p>
+                  <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                  </div>
+                  <div class="project-links">
+                
+                  </div>
+                </div>
+              </div>
+              
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="images/3.jpeg" alt="Project 2">
+                </div>
+                <div class="project-info">
+                  <h3 class="project-title">Finance Tracker  </h3>
+                  <p class="project-description">A Finance Tracker  lication that displays current exxpenditure and helps evaluate the savings to expenditure on the basis of graphical data based on user need.</p>
+                  <div class="project-tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">API</span>
+                    <span class="tag">CSS</span>
+                  </div>
+                  <div class="project-links">
+                    
+                  </div>
+                </div>
+              </div>
+              
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="images/4.jpg" alt="Project 3">
+                </div>
+                <div class="project-info">
+                  <h3 class="project-title">Task Manager</h3>
+                  <p class="project-description">A simple yet powerful task management application with local storage.</p>
+                  <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                  </div>
+                  <div class="project-link">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact section" id="contact">
+          <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+              <div class="contact-info">
+                <div class="contact-item">
+                  <div class="contact-icon">📧</div>
+                  <div class="contact-details">
+                    <h3>Email</h3>
+                    <a href="mailto:vedant30.kanekar@gmail.com">vedant30.kanekar@gmail.com</a>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">📱</div>
+                  <div class="contact-details">
+                    <h3>Phone</h3>
+                    <a href="tel:+1234567890">7977547273</a>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">📍</div>
+                  <div class="contact-details">
+                    <h3>Location</h3>
+                    <p>Mumbai, India</p>
+                  </div>
+                </div>
+                <div class="social-links">
+                  <a href="#" class="social-link" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  </a>
+                  <a href="#" class="social-link" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                  </a>
+                  <a href="#" class="social-link" aria-label="Twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="contact-form-container">
+                <form class="contact-form" id="contact-form">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                  </div>
+                  <button type="submit" class="button primary">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <p>&copy; 2023 Vedant Kanekar. All Rights Reserved.</p>
+            <div class="footer-links">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script src="./js/script.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
